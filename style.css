@@ -31,6 +31,6 @@ div> a{
 }
 div>a:hover{
     color: white;
-    border-bottom: black solid 1px;
     transition: 1s;
+    border-bottom: black 1px solid;
 }
