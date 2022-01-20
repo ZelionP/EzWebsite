@@ -10,7 +10,7 @@ nav{
     position: fixed;
     
 }
-div{
+#Links{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,4 +33,24 @@ div>a:hover{
     color: white;
     transition: 1s;
     border-bottom: black 1px solid;
+}
+#home{
+    height: 20px;
+    margin-right: 5px;
+}
+#insta{  
+    height: 20px;
+    margin-right: 5px;
+}
+#twitt{
+    height: 20px;
+    margin-right: 5px;
+}
+#redd{
+    height: 20px;
+    margin-right: 5px;
+}
+div{
+    display: flex;
+    align-items: center !important;
 }
