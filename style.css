@@ -10,8 +10,6 @@ nav{
     height: 100px;
     background-color: orangered;
     padding: 10px;
-    position: fixed;
-    
 }
 #Links{
     display: flex;
@@ -53,7 +51,50 @@ div>a:hover{
     height: 20px;
     margin-right: 5px;
 }
-div{
-    display: flex;
-    align-items: center !important;
+.first{
+    color: white;
+    font-size:30px ;
+    margin: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
 }
+.first::first-letter{
+    font-size: 50px;
+    color: orangered;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+#Text{
+    display: inline-block;
+    width: 40%;
+    padding: 30px;
+    color: white;
+    height: 60vh;
+}
+#Text > h1{
+    display: block;
+}
+#myprofile{
+    display: inline-block;
+    height: 50vh;
+    width: 50%;
+    text-align: center;
+    margin-left: 5%;
+}
+#myprofile > img{
+    height: 100%;
+    border: gray 2px solid;
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.342) 4px 6px;
+}
+#wev{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 5%;
+    margin-left: 10px;
+}
+wev:hover{
+    cursor:pointer;
+}    
