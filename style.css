@@ -4,6 +4,7 @@ body{
     background-image: url(red-back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 nav{
     width: 100%;
@@ -78,13 +79,11 @@ div>a:hover{
     height: 50vh;
     width: 50%;
     text-align: center;
-    margin-left: 5%;
 }
 #myprofile > img{
     height: 100%;
-    border: gray 2px solid;
+    box-shadow: 7px 7px 15px gray;
     border-radius: 20%;
-    box-shadow: rgba(0, 0, 0, 0.342) 4px 6px;
 }
 #wev{
     background-color: red;
@@ -94,6 +93,8 @@ div>a:hover{
     border: white solid 1px;
     border-radius: 5%;
     margin-left: 10px;
+    display: block;
+    width: 85px;
 }
 wev:hover{
     cursor:pointer;
